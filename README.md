@@ -46,9 +46,10 @@ Sadik.com.info হলো একটি বহুমুখী উন্মুক�
 ## 💻 প্রযুক্তিগত তথ্য (Tech Stack)
 
 - **Frontend:** HTML5, Tailwind CSS (Deep Blue Theme), JavaScript (ES6+)
+- **Assets:** ১০০% লোকাল ও খাঁটি বাংলাদেশি প্রেক্ষাপটের ইমেজ (`assets/images/`) — বাংলাদেশি ইলেকট্রিশিয়ান, প্লাম্বার, এসি টেকনিশিয়ান, মাইক্রোবাস, পিকআপ, অ্যাম্বুলেন্স, ধানমন্ডি ফ্ল্যাট টু-লেট ইত্যাদি।
 - **Typography:** Google Fonts (`Hind Siliguri` - বাংলা, `Outfit` - ইংরেজি)
 - **Icons:** FontAwesome 6 Free CDN
-- **State & Persistence:** LocalStorage Persistence Engine
+- **State & Persistence:** LocalStorage Persistence Engine (v3 auto-refresh)
 - **Responsive:** Mobile, Tablet & Desktop Friendly Responsive UI
 
 ---

@@ -4,9 +4,10 @@
  * Color Theme: Deep Blue
  * Official Contact: 01617-723455
  * Address: ৫৮, সাতমসজিদ রোড, লেভেল: ৭, গ্রীন সিটি সেন্টার, ধানমন্ডি, ঢাকা, বাংলাদেশ।
+ * Images: 100% Local Authentic Bangladeshi Service Photos
  */
 
-// Initial realistic seed dataset
+// Initial realistic dataset with authentic Bangladeshi images
 const INITIAL_SERVICES = [
   {
     id: "srv-1",
@@ -24,7 +25,7 @@ const INITIAL_SERVICES = [
     reviewsCount: 42,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/electrician.jpg",
     description: "বাসা-বাড়ির শর্ট সার্কিট সমাধান, ফ্যান/লাইট ফিটিংস, নতুন সার্কিট ব্রেকার ও ডিস্ট্রিবিউশন বোর্ড স্থাপন, আইপিএস কানেকশন এবং যেকোনো ইলেকট্রিক্যাল কাজের অভিজ্ঞ মিস্ত্রি।"
   },
   {
@@ -43,7 +44,7 @@ const INITIAL_SERVICES = [
     reviewsCount: 31,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/plumber.jpg",
     description: "বাথরুমের পাইপ লিক ঠিক করা, বেসিন ও কমোড ফিটিংস, পানির মোটর ইনস্টল ও লাইন ওয়াশ করার আধুনিক যন্ত্রপাতি সহ দ্রুততম সেবা।"
   },
   {
@@ -62,7 +63,7 @@ const INITIAL_SERVICES = [
     reviewsCount: 58,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/ac-repair.jpg",
     description: "ইনভার্টার ও নন-ইনভার্টার এসি ইন্সটলেশন, মাস্টার ওয়াশ, গ্যাস রিফিল এবং কম্প্রেসার মেরামত। ডিপ ফ্রিজ ও নরমাল ফ্রিজের যেকোনো সমস্যা সমাধান।"
   },
   {
@@ -81,7 +82,7 @@ const INITIAL_SERVICES = [
     reviewsCount: 84,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/microbus.jpg",
     description: "পরিবার নিয়ে ভ্রমণ, অফিস ডিউটি, এয়ারপোর্ট পিক অ্যান্ড ড্রপ বা যেকোনো জেলায় যাওয়ার জন্য পরিচ্ছন্ন নোয়া/হাইয়েস মাইক্রোবাস ও এক্স করোলা কার।"
   },
   {
@@ -100,7 +101,7 @@ const INITIAL_SERVICES = [
     reviewsCount: 45,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/pickup.jpg",
     description: "বাসা বদল, অফিস ফার্নিচার বা মালামাল বহনে খোলা ও কাভার্ড ভ্যান পিকআপ। অভিজ্ঞ লোডার ও ড্রাইভার সহ ঝামেলাহীন শিফটিং।"
   },
   {
@@ -119,7 +120,7 @@ const INITIAL_SERVICES = [
     reviewsCount: 96,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1587745416684-47953f16f02f?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/ambulance.jpg",
     description: "অক্সিজেন ও ভেন্টিলেটরযুক্ত আইসিইউ অ্যাম্বুলেন্স, ফ্রিজিং অ্যাম্বুলেন্স ও এসি সাধারণ অ্যাম্বুলেন্স। সারাদেশের যেকোনো প্রান্তে দ্রুত রোগী স্থানান্তর।"
   },
   {
@@ -138,7 +139,7 @@ const INITIAL_SERVICES = [
     reviewsCount: 16,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/flat-rent.jpg",
     description: "১৫৫০ বর্গফুট, ৩ বেড, ৩ বাথ, ৩ বারান্দা, ড্রয়িং-ডাইনিং, লিফট, জেনারেটর ব্যাকআপ, ২৪ ঘণ্টা সিকিউরিটি গার্ড ও নিজস্ব কার পার্কিং।"
   },
   {
@@ -157,7 +158,7 @@ const INITIAL_SERVICES = [
     reviewsCount: 22,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/bachelor-room.jpg",
     description: "পর্যাপ্ত আলো-বাতাস, ফিল্টার পানি, হাই-স্পিড ওয়াইফাই, মিল ও বুয়া ব্যবস্থা এবং পড়ার জন্য শান্ত ও মনোরম পরিবেশ।"
   },
   {
@@ -176,7 +177,7 @@ const INITIAL_SERVICES = [
     reviewsCount: 14,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/commercial-space.jpg",
     description: "১২৫০ স্কয়ার ফিট বাণিজ্যিক স্পেস, কর্পোরেট অফিস, আইটি ফার্ম বা শোরুমের জন্য উপযুক্ত। লিফট, সিকিউরিটি ও ব্যাকআপ জেনারেটর রয়েছে।"
   },
   {
@@ -195,18 +196,21 @@ const INITIAL_SERVICES = [
     reviewsCount: 37,
     isVerified: true,
     isMyListing: false,
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80",
+    image: "assets/images/cleaning.jpg",
     description: "সোফা, কার্পেট ও কিচেন ডিপ ওয়াশ। তেলাপোকা ও ছারপোকা দমনে কার্যকর স্প্রে ও নিরাপদ পেস্ট কন্ট্রোল সার্ভিস।"
   }
 ];
 
-// Presets mapping for image selection
+// Presets mapping for image selection using local assets
 const PRESET_IMAGES = {
-  "mistry-electric": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80",
-  "mistry-plumber": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=600&q=80",
-  "car": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
-  "house": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=600&q=80"
+  "mistry-electric": "assets/images/electrician.jpg",
+  "mistry-plumber": "assets/images/plumber.jpg",
+  "car": "assets/images/microbus.jpg",
+  "house": "assets/images/flat-rent.jpg"
 };
+
+// Current Storage Key Version
+const STORAGE_KEY = 'sadik_services_v3';
 
 // State Variables
 let services = [];
@@ -224,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Load services from LocalStorage or seed data
 function loadServices() {
-  const stored = localStorage.getItem('sadik_services_v2');
+  const stored = localStorage.getItem(STORAGE_KEY);
   if (stored) {
     try {
       services = JSON.parse(stored);
@@ -233,6 +237,9 @@ function loadServices() {
       services = [...INITIAL_SERVICES];
     }
   } else {
+    // Clear old versions if present
+    localStorage.removeItem('sadik_services');
+    localStorage.removeItem('sadik_services_v2');
     services = [...INITIAL_SERVICES];
     saveServices();
   }
@@ -240,12 +247,11 @@ function loadServices() {
 
 // Save services to LocalStorage
 function saveServices() {
-  localStorage.setItem('sadik_services_v2', JSON.stringify(services));
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(services));
 }
 
 // Setup Event Listeners
 function setupEventListeners() {
-  // Realtime keyword search input listener
   const searchInput = document.getElementById('searchKeyword');
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
@@ -254,7 +260,6 @@ function setupEventListeners() {
     });
   }
 
-  // Realtime category select change listener
   const catSelect = document.getElementById('searchCategory');
   if (catSelect) {
     catSelect.addEventListener('change', (e) => {
@@ -264,7 +269,6 @@ function setupEventListeners() {
     });
   }
 
-  // Realtime area select change listener
   const areaSelect = document.getElementById('searchArea');
   if (areaSelect) {
     areaSelect.addEventListener('change', (e) => {
@@ -283,7 +287,6 @@ function renderServices(filteredData = null) {
 
   if (!grid) return;
 
-  // Update counter
   if (countBadge) {
     countBadge.textContent = `${dataToRender.length}টি পাওয়া গেছে`;
   }
@@ -297,7 +300,6 @@ function renderServices(filteredData = null) {
   emptyState.classList.add('hidden');
 
   grid.innerHTML = dataToRender.map(item => {
-    // Category pill icon & color (Deep Blue harmony)
     let catIcon = 'fa-wrench';
     let catColor = 'bg-amber-100 text-amber-800 border-amber-200';
     if (item.category === 'car') {
@@ -323,7 +325,7 @@ function renderServices(filteredData = null) {
               src="${defaultImg}" 
               alt="${item.title}" 
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              onerror="this.src='https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=600&q=80'"
+              onerror="this.src='assets/images/electrician.jpg'"
             >
             <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
             
@@ -453,26 +455,22 @@ function getCategoryLabel(cat) {
 // Filter calculations
 function getFilteredServices() {
   return services.filter(item => {
-    // 1. My Listings filter
     if (isMyListingsOnly && !item.isMyListing) {
       return false;
     }
 
-    // 2. Category filter
     if (!isMyListingsOnly && currentCategoryFilter !== 'all') {
       if (item.category !== currentCategoryFilter) {
         return false;
       }
     }
 
-    // 3. Area filter
     if (currentAreaFilter !== 'all') {
       const matchArea = (item.area && item.area.includes(currentAreaFilter)) || 
                         (item.location && item.location.includes(currentAreaFilter));
       if (!matchArea) return false;
     }
 
-    // 4. Keyword search (Title, Description, Provider, Location)
     if (currentSearchKeyword) {
       const textToSearch = `${item.title} ${item.description} ${item.provider} ${item.location} ${item.categoryLabel || ''}`.toLowerCase();
       if (!textToSearch.includes(currentSearchKeyword)) {
@@ -489,7 +487,6 @@ function applyFilters() {
   const filtered = getFilteredServices();
   renderServices(filtered);
 
-  // Update filter info display bar
   const filterInfo = document.getElementById('activeFilterInfo');
   const filterText = document.getElementById('activeFilterText');
 
@@ -507,26 +504,24 @@ function applyFilters() {
   }
 }
 
-// Filter by category directly from tabs or nav
+// Filter by category
 function filterByCategory(cat) {
   isMyListingsOnly = false;
   currentCategoryFilter = cat;
 
-  // Sync select element if present
   const catSelect = document.getElementById('searchCategory');
   if (catSelect) catSelect.value = cat;
 
   updateActiveTabUI();
   applyFilters();
 
-  // Scroll smoothly to section
   const sectionTitle = document.getElementById('sectionTitle');
   if (sectionTitle) {
     sectionTitle.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
 
-// Filter by location directly from footer/links
+// Filter by location
 function filterByLocation(loc) {
   currentAreaFilter = loc;
   const areaSelect = document.getElementById('searchArea');
@@ -539,7 +534,7 @@ function filterByLocation(loc) {
   }
 }
 
-// Quick Search from hero tag pills
+// Quick Search
 function quickSearch(keyword) {
   currentSearchKeyword = keyword.toLowerCase();
   const searchInput = document.getElementById('searchKeyword');
@@ -623,7 +618,6 @@ function updateActiveTabUI() {
     }
   });
 
-  // Also update navbar active class
   const navLinks = document.querySelectorAll('.nav-link');
   navLinks.forEach(link => {
     const cat = link.getAttribute('data-category');
@@ -669,7 +663,6 @@ function selectPresetImage(presetKey) {
     const input = document.getElementById('formImageUrl');
     if (input) input.value = url;
 
-    // Visual button selection
     document.querySelectorAll('.preset-img-btn').forEach(btn => btn.classList.remove('preset-active'));
     if (event && event.currentTarget) {
       event.currentTarget.classList.add('preset-active');
@@ -692,7 +685,6 @@ function handleNewServiceSubmit(e) {
   const description = document.getElementById('formDescription').value.trim();
   const customImg = document.getElementById('formImageUrl').value.trim();
 
-  // Fallback image based on category
   let image = customImg;
   if (!image) {
     if (category === 'mistry') image = PRESET_IMAGES['mistry-electric'];
@@ -701,7 +693,6 @@ function handleNewServiceSubmit(e) {
     else image = PRESET_IMAGES['mistry-plumber'];
   }
 
-  // Detect simple area keyword from location
   let area = "অন্যান্য";
   ['ধানমন্ডি', 'মিরপুর', 'উত্তরা', 'গুলশান', 'বনানী', 'মোহাম্মদপুর', 'বাড্ডা', 'মতিঝিল', 'চট্টগ্রাম', 'সিলেট'].forEach(a => {
     if (location.includes(a)) area = a;
@@ -727,15 +718,12 @@ function handleNewServiceSubmit(e) {
     description
   };
 
-  // Add to top of list
   services.unshift(newService);
   saveServices();
 
-  // Reset form & close modal
   document.getElementById('addServiceForm').reset();
   closeModal('addServiceModal');
 
-  // Re-render and show toast
   applyFilters();
   showToast("সফলভাবে যোগ হয়েছে!", "আপনার বিজ্ঞাপনটি সাদিক পোর্টালে যুক্ত হয়েছে।");
 }
@@ -761,7 +749,7 @@ function showServiceDetails(id) {
   modalContent.innerHTML = `
     <!-- Header with Image -->
     <div class="relative h-56 -mx-6 -mt-6 sm:-mx-8 sm:-mt-8 rounded-t-3xl overflow-hidden mb-6 bg-slate-100">
-      <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover">
+      <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover" onerror="this.src='assets/images/electrician.jpg'">
       <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent"></div>
       
       <div class="absolute bottom-4 left-6 right-6 text-white">
@@ -872,7 +860,6 @@ function handleBookingSubmit(e) {
   const item = services.find(s => s.id === serviceId);
   const targetProvider = item ? item.provider : "প্রোভাইডার";
 
-  // Store booking
   const bookings = JSON.parse(localStorage.getItem('sadik_bookings') || '[]');
   const newBooking = {
     id: 'book-' + Date.now(),
@@ -888,11 +875,9 @@ function handleBookingSubmit(e) {
   bookings.unshift(newBooking);
   localStorage.setItem('sadik_bookings', JSON.stringify(bookings));
 
-  // Reset form and close
   document.getElementById('bookingForm').reset();
   closeModal('bookingModal');
 
-  // Success toast
   showToast(
     "রিকোয়েস্ট সফলভাবে পাঠানো হয়েছে!", 
     `${targetProvider} এর সাথে আপনার রিকোয়েস্ট নিশ্চিত করা হয়েছে। শীঘ্রই 01617-723455 থেকে বা প্রোভাইডার কল করবে।`
