@@ -1,6 +1,9 @@
 /**
  * Sadik.com.info - Core Application Logic
  * Supports Home Mistry, Car Rental, House Rent / To-Let & Open Community Listing
+ * Color Theme: Deep Blue
+ * Official Contact: 01617-723455
+ * Address: ৫৮, সাতমসজিদ রোড, লেভেল: ৭, গ্রীন সিটি সেন্টার, ধানমন্ডি, ঢাকা, বাংলাদেশ।
  */
 
 // Initial realistic seed dataset
@@ -10,15 +13,15 @@ const INITIAL_SERVICES = [
     title: "দক্ষ ইলেকট্রিশিয়ান ও হোম ওয়্যারিং সার্ভিস",
     category: "mistry",
     categoryLabel: "মিস্ত্রি সেবা",
-    provider: "মোঃ রহিম ইলেকট্রিক ওয়ার্কস",
-    phone: "01711223344",
-    whatsapp: "8801711223344",
-    location: "মিরপুর ১০, ঢাকা",
-    area: "মিরপুর",
+    provider: "সাদিক ইলেকট্রিক ও সার্ভিস কেয়ার",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "ধানমন্ডি (সাতমসজিদ রোড), ঢাকা",
+    area: "ধানমন্ডি",
     rate: "৳৫০০ / ভিজিট",
     availability: "সকাল ৮টা - রাত ১০টা (জরুরি ২৪ ঘণ্টা)",
     rating: 4.9,
-    reviewsCount: 38,
+    reviewsCount: 42,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80",
@@ -30,14 +33,14 @@ const INITIAL_SERVICES = [
     category: "mistry",
     categoryLabel: "মিস্ত্রি সেবা",
     provider: "সুমন স্যানিটারি ও প্লাম্বিং",
-    phone: "01822334455",
-    whatsapp: "8801822334455",
-    location: "ধানমন্ডি, ঢাকা",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "গ্রীন সিটি সেন্টার, ধানমন্ডি, ঢাকা",
     area: "ধানমন্ডি",
     rate: "৳৬০০ / কাজ শুরু",
     availability: "সকাল ৯টা - রাত ৯টা",
     rating: 4.8,
-    reviewsCount: 26,
+    reviewsCount: 31,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=600&q=80",
@@ -49,14 +52,14 @@ const INITIAL_SERVICES = [
     category: "mistry",
     categoryLabel: "মিস্ত্রি সেবা",
     provider: "কুল মাস্টার কুলিং সলিউশন",
-    phone: "01933445566",
-    whatsapp: "8801933445566",
-    location: "উত্তরা সেক্টর ৭, ঢাকা",
-    area: "উত্তরা",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "মিরপুর ও ধানমন্ডি, ঢাকা",
+    area: "মিরপুর",
     rate: "৳৮০০ / বেসিক সার্ভিসিং",
     availability: "২৪/৭ জরুরি সাপোর্ট",
     rating: 5.0,
-    reviewsCount: 52,
+    reviewsCount: 58,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=600&q=80",
@@ -67,15 +70,15 @@ const INITIAL_SERVICES = [
     title: "নোয়াহ / হাইয়েস মাইক্রোবাস ও কার রেন্ট-এ-কার",
     category: "car",
     categoryLabel: "গাড়ি ভাড়া",
-    provider: "গ্রিন লাইন রেন্ট-এ-কার ও ট্যুরস",
-    phone: "01755667788",
-    whatsapp: "8801755667788",
-    location: "বনানী ও গুলশান, ঢাকা",
-    area: "বনানী",
-    rate: "৳৩,৫০০ / দিন (গ্যাস/তেল বাদে)",
+    provider: "সাদিক রেন্ট-এ-কার ও ট্রাভেলস",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "ধানমন্ডি ও সমগ্র বাংলাদেশ",
+    area: "ধানমন্ডি",
+    rate: "৳৩,৫০০ / দিন (তেল/গ্যাস আলোচনা সাপেক্ষে)",
     availability: "সারাদেশে ট্রিপ দেওয়া হয়",
     rating: 4.9,
-    reviewsCount: 74,
+    reviewsCount: 84,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
@@ -87,14 +90,14 @@ const INITIAL_SERVICES = [
     category: "car",
     categoryLabel: "গাড়ি ভাড়া",
     provider: "দ্রুত পরিবহন ও শিফটিং",
-    phone: "01677889900",
-    whatsapp: "8801677889900",
-    location: "তেজগাঁও ও মহাখালী, ঢাকা",
-    area: "অন্যান্য",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "তেজগাঁও, ধানমন্ডি ও মোহাম্মদপুর",
+    area: "মোহাম্মদপুর",
     rate: "৳১,৮০০ / লোকাল ট্রিপ",
     availability: "২৪ ঘণ্টা প্রস্তুত",
     rating: 4.7,
-    reviewsCount: 41,
+    reviewsCount: 45,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=600&q=80",
@@ -106,14 +109,14 @@ const INITIAL_SERVICES = [
     category: "car",
     categoryLabel: "গাড়ি ভাড়া",
     provider: "লাইফ কেয়ার অ্যাম্বুলেন্স সার্ভিস",
-    phone: "01799001122",
-    whatsapp: "8801799001122",
-    location: "ঢাকা মেডিকেল ও সমগ্র বাংলাদেশ",
-    area: "মতিঝিল",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "ধানমন্ডি, ঢাকা মেডিকেল ও সমগ্র বাংলাদেশ",
+    area: "ধানমন্ডি",
     rate: "৳২,০০০ / ঢাকা সিটি",
     availability: "২৪ ঘণ্টা জরুরি সেবা",
     rating: 5.0,
-    reviewsCount: 89,
+    reviewsCount: 96,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1587745416684-47953f16f02f?auto=format&fit=crop&w=600&q=80",
@@ -125,18 +128,18 @@ const INITIAL_SERVICES = [
     category: "rent",
     categoryLabel: "বাসা ভাড়া / টু-লেট",
     provider: "বাড়িওয়ালা (আলহাজ্ব মোস্তফা কামাল)",
-    phone: "01744556677",
-    whatsapp: "8801744556677",
-    location: "সেক্টর ১১, রোড ৩, উত্তরা, ঢাকা",
-    area: "উত্তরা",
-    rate: "৳২২,০০০ / মাস",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "সাতমসজিদ রোড, ধানমন্ডি, ঢাকা",
+    area: "ধানমন্ডি",
+    rate: "৳২৮,০০০ / মাস",
     availability: "পরবর্তী মাসের ১ তারিখ থেকে খালি",
     rating: 4.9,
-    reviewsCount: 12,
+    reviewsCount: 16,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=600&q=80",
-    description: "১৪৫০ বর্গফুট, ৩ বেড, ৩ বাথ, ৩ বারান্দা, ড্রয়িং-ডাইনিং, লিফট, জেনারেটর ব্যাকআপ, ২৪ ঘণ্টা সিকিউরিটি গার্ড ও গ্যারেজ সুবিধা।"
+    description: "১৫৫০ বর্গফুট, ৩ বেড, ৩ বাথ, ৩ বারান্দা, ড্রয়িং-ডাইনিং, লিফট, জেনারেটর ব্যাকআপ, ২৪ ঘণ্টা সিকিউরিটি গার্ড ও নিজস্ব কার পার্কিং।"
   },
   {
     id: "srv-8",
@@ -144,52 +147,52 @@ const INITIAL_SERVICES = [
     category: "rent",
     categoryLabel: "বাসা ভাড়া / টু-লেট",
     provider: "হাউস ম্যানেজার (জাহিদ হাসান)",
-    phone: "01855667788",
-    whatsapp: "8801855667788",
-    location: "মিরপুর ২ (স্টেডিয়ামের কাছে), ঢাকা",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "মিরপুর ১০ (মেট্রোরেল স্টেশনের কাছে), ঢাকা",
     area: "মিরপুর",
-    rate: "৳৩,৫০০ / সিট (ওয়াইফাই ও পানি সহ)",
+    rate: "৳৩,৮০০ / সিট (ওয়াইফাই ও পানি সহ)",
     availability: "বর্তমানে ২টি সিট খালি আছে",
     rating: 4.7,
-    reviewsCount: 18,
+    reviewsCount: 22,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=600&q=80",
-    description: "পর্যাপ্ত আলো-বাতাস, খাবার পানির ফিল্টার, হাই-স্পিড ওয়াইফাই, বুয়া ব্যবস্থা ও পড়ার জন্য শান্ত পরিবেশ।"
+    description: "পর্যাপ্ত আলো-বাতাস, ফিল্টার পানি, হাই-স্পিড ওয়াইফাই, মিল ও বুয়া ব্যবস্থা এবং পড়ার জন্য শান্ত ও মনোরম পরিবেশ।"
   },
   {
     id: "srv-9",
-    title: "মেইন রোডে আধুনিক শোরুম / অফিস স্পেস ভাড়া",
+    title: "গ্রীন সিটি সেন্টারে বাণিজ্যিক অফিস / শোরুম স্পেস ভাড়া",
     category: "rent",
     categoryLabel: "বাসা ভাড়া / টু-লেট",
-    provider: "প্রপার্টি ওনার (সাদিক হোসেন)",
-    phone: "01722338899",
-    whatsapp: "8801722338899",
-    location: "মতিঝিল বাণিজ্যিক এলাকা, ঢাকা",
-    area: "মতিঝিল",
+    provider: "প্রপার্টি ম্যানেজমেন্ট",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "৫৮, সাতমসজিদ রোড, লেভেল: ৭, ধানমন্ডি, ঢাকা",
+    area: "ধানমন্ডি",
     rate: "৳৪৫,০০০ / মাস",
     availability: "এখনই ব্যবহারের উপযোগী",
-    rating: 4.8,
-    reviewsCount: 9,
+    rating: 4.9,
+    reviewsCount: 14,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80",
-    description: "১২০০ স্কয়ার ফিট কমার্শিয়াল স্পেস, আইটি অফিস, শোরুম বা ডায়াগনস্টিক সেন্টারের জন্য উপযুক্ত। লিফট ও ফায়ার সেফটি অনুমোদিত।"
+    description: "১২৫০ স্কয়ার ফিট বাণিজ্যিক স্পেস, কর্পোরেট অফিস, আইটি ফার্ম বা শোরুমের জন্য উপযুক্ত। লিফট, সিকিউরিটি ও ব্যাকআপ জেনারেটর রয়েছে।"
   },
   {
     id: "srv-10",
     title: "বাড়ি ও অফিস ডিপ ক্লিনিং এবং পেস্ট কন্ট্রোল",
     category: "others",
     categoryLabel: "অন্যান্য সেবা",
-    provider: "ক্লিনসিটি ক্লিনিং সলিউশনস",
-    phone: "01911223399",
-    whatsapp: "8801911223399",
-    location: "গুলশান ও বাড্ডা, ঢাকা",
-    area: "গুলশান",
+    provider: "সাদিক ক্লিনিং সলিউশনস",
+    phone: "01617-723455",
+    whatsapp: "8801617723455",
+    location: "ধানমন্ডি ও গুলশান, ঢাকা",
+    area: "ধানমন্ডি",
     rate: "৳১,৫০০ / প্যাকেজ শুরু",
     availability: "সপ্তাহে ৭ দিন",
     rating: 4.8,
-    reviewsCount: 31,
+    reviewsCount: 37,
     isVerified: true,
     isMyListing: false,
     image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80",
@@ -221,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Load services from LocalStorage or seed data
 function loadServices() {
-  const stored = localStorage.getItem('sadik_services');
+  const stored = localStorage.getItem('sadik_services_v2');
   if (stored) {
     try {
       services = JSON.parse(stored);
@@ -237,7 +240,7 @@ function loadServices() {
 
 // Save services to LocalStorage
 function saveServices() {
-  localStorage.setItem('sadik_services', JSON.stringify(services));
+  localStorage.setItem('sadik_services_v2', JSON.stringify(services));
 }
 
 // Setup Event Listeners
@@ -294,25 +297,25 @@ function renderServices(filteredData = null) {
   emptyState.classList.add('hidden');
 
   grid.innerHTML = dataToRender.map(item => {
-    // Category pill icon & color
+    // Category pill icon & color (Deep Blue harmony)
     let catIcon = 'fa-wrench';
     let catColor = 'bg-amber-100 text-amber-800 border-amber-200';
     if (item.category === 'car') {
       catIcon = 'fa-car';
-      catColor = 'bg-blue-100 text-blue-800 border-blue-200';
+      catColor = 'bg-blue-100 text-brand-800 border-blue-200';
     } else if (item.category === 'rent') {
       catIcon = 'fa-house-chimney';
       catColor = 'bg-emerald-100 text-emerald-800 border-emerald-200';
     } else if (item.category === 'others') {
       catIcon = 'fa-box-open';
-      catColor = 'bg-purple-100 text-purple-800 border-purple-200';
+      catColor = 'bg-indigo-100 text-indigo-800 border-indigo-200';
     }
 
     const cleanWhatsapp = item.whatsapp ? item.whatsapp.replace(/[^0-9]/g, '') : item.phone.replace(/[^0-9]/g, '');
     const defaultImg = item.image || PRESET_IMAGES['mistry-electric'];
 
     return `
-      <div class="service-card bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-sm flex flex-col justify-between group">
+      <div class="service-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm flex flex-col justify-between group">
         <div>
           <!-- Card Image & Floating Badges -->
           <div class="relative h-48 w-full overflow-hidden bg-slate-100">
@@ -322,7 +325,7 @@ function renderServices(filteredData = null) {
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               onerror="this.src='https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=600&q=80'"
             >
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
             
             <!-- Category Tag -->
             <div class="absolute top-3 left-3">
@@ -335,20 +338,20 @@ function renderServices(filteredData = null) {
             <!-- Verified / My Listing Badge -->
             <div class="absolute top-3 right-3 flex items-center gap-1.5">
               ${item.isMyListing ? `
-                <span class="bg-purple-600 text-white text-[11px] font-bold px-2.5 py-0.5 rounded-full shadow">
+                <span class="bg-indigo-600 text-white text-[11px] font-bold px-2.5 py-0.5 rounded-full shadow">
                   <i class="fa-solid fa-user"></i> আমার বিজ্ঞাপন
                 </span>
               ` : ''}
               ${item.isVerified ? `
-                <span class="bg-white/90 backdrop-blur-md text-emerald-700 text-xs font-bold px-2 py-0.5 rounded-full shadow-sm flex items-center gap-1">
-                  <i class="fa-solid fa-circle-check text-emerald-600"></i> ভেরিফাইড
+                <span class="bg-white/95 backdrop-blur-md text-brand-800 text-xs font-bold px-2.5 py-0.5 rounded-full shadow-sm flex items-center gap-1 border border-brand-200">
+                  <i class="fa-solid fa-circle-check text-brand-600"></i> ভেরিফাইড
                 </span>
               ` : ''}
             </div>
 
             <!-- Price Tag at bottom of image -->
             <div class="absolute bottom-3 left-3 text-white">
-              <span class="text-xs text-slate-200 block">চার্জ / ভাড়া:</span>
+              <span class="text-xs text-blue-200 block">চার্জ / ভাড়া:</span>
               <span class="text-lg font-extrabold text-amber-300 drop-shadow-sm">${item.rate}</span>
             </div>
           </div>
@@ -369,13 +372,13 @@ function renderServices(filteredData = null) {
             </div>
 
             <!-- Title -->
-            <h3 class="font-bold text-slate-900 text-base leading-snug group-hover:text-brand-600 transition-colors line-clamp-2">
+            <h3 class="font-bold text-slate-900 text-base leading-snug group-hover:text-brand-700 transition-colors line-clamp-2">
               ${item.title}
             </h3>
 
             <!-- Provider info -->
             <div class="mt-2.5 flex items-center gap-2 text-xs text-slate-600">
-              <div class="w-6 h-6 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center font-bold text-[10px]">
+              <div class="w-6 h-6 rounded-full bg-brand-50 text-brand-700 flex items-center justify-center font-bold text-[10px]">
                 <i class="fa-solid fa-user-tie"></i>
               </div>
               <span class="font-medium text-slate-800">${item.provider}</span>
@@ -393,8 +396,8 @@ function renderServices(filteredData = null) {
           <div class="pt-3 border-t border-slate-100 grid grid-cols-3 gap-2">
             <!-- Call Button -->
             <a 
-              href="tel:${item.phone}" 
-              class="col-span-1 bg-brand-50 hover:bg-brand-100 text-brand-700 font-bold text-xs py-2.5 rounded-xl transition flex items-center justify-center gap-1.5 border border-brand-200"
+              href="tel:${item.phone.replace(/[^0-9]/g, '')}" 
+              class="col-span-1 bg-brand-50 hover:bg-brand-100 text-brand-800 font-bold text-xs py-2.5 rounded-xl transition flex items-center justify-center gap-1.5 border border-brand-200"
               title="সরাসরি কল করুন"
             >
               <i class="fa-solid fa-phone text-xs"></i>
@@ -405,7 +408,7 @@ function renderServices(filteredData = null) {
             <a 
               href="https://wa.me/${cleanWhatsapp}?text=${encodeURIComponent(`সালাম, Sadik.com.info তে আপনার "${item.title}" বিজ্ঞাপনটি দেখে যোগাযোগ করছি।`)}" 
               target="_blank" 
-              class="col-span-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs py-2.5 rounded-xl transition flex items-center justify-center gap-1.5 shadow-sm"
+              class="col-span-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-2.5 rounded-xl transition flex items-center justify-center gap-1.5 shadow-sm"
               title="হোয়াটসঅ্যাপে মেসেজ পাঠান"
             >
               <i class="fa-brands fa-whatsapp text-sm"></i>
@@ -415,7 +418,7 @@ function renderServices(filteredData = null) {
             <!-- Details / Book Button -->
             <button 
               onclick="showServiceDetails('${item.id}')" 
-              class="col-span-1 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs py-2.5 rounded-xl transition flex items-center justify-center gap-1"
+              class="col-span-1 bg-brand-900 hover:bg-brand-800 text-white font-bold text-xs py-2.5 rounded-xl transition flex items-center justify-center gap-1"
             >
               <span>বিস্তারিত</span>
               <i class="fa-solid fa-chevron-right text-[10px]"></i>
@@ -609,11 +612,11 @@ function updateActiveTabUI() {
     const cat = tab.getAttribute('data-cat');
     if ((isMyListingsOnly && cat === 'my') || (!isMyListingsOnly && cat === currentCategoryFilter)) {
       tab.classList.add('active-tab');
-      tab.classList.remove('text-slate-600', 'bg-purple-50');
+      tab.classList.remove('text-slate-600', 'bg-brand-50');
     } else {
       tab.classList.remove('active-tab');
       if (cat === 'my') {
-        tab.classList.add('text-purple-700', 'bg-purple-50');
+        tab.classList.add('text-brand-700', 'bg-brand-50');
       } else {
         tab.classList.add('text-slate-600');
       }
@@ -700,7 +703,7 @@ function handleNewServiceSubmit(e) {
 
   // Detect simple area keyword from location
   let area = "অন্যান্য";
-  ['মিরপুর', 'ধানমন্ডি', 'উত্তরা', 'গুলশান', 'বনানী', 'মোহাম্মদপুর', 'বাড্ডা', 'মতিঝিল', 'চট্টগ্রাম', 'সিলেট'].forEach(a => {
+  ['ধানমন্ডি', 'মিরপুর', 'উত্তরা', 'গুলশান', 'বনানী', 'মোহাম্মদপুর', 'বাড্ডা', 'মতিঝিল', 'চট্টগ্রাম', 'সিলেট'].forEach(a => {
     if (location.includes(a)) area = a;
   });
 
@@ -759,10 +762,10 @@ function showServiceDetails(id) {
     <!-- Header with Image -->
     <div class="relative h-56 -mx-6 -mt-6 sm:-mx-8 sm:-mt-8 rounded-t-3xl overflow-hidden mb-6 bg-slate-100">
       <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover">
-      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent"></div>
       
       <div class="absolute bottom-4 left-6 right-6 text-white">
-        <span class="text-xs bg-brand-500 text-white font-bold px-2.5 py-0.5 rounded-full inline-block mb-1">
+        <span class="text-xs bg-brand-700 text-white font-bold px-2.5 py-0.5 rounded-full inline-block mb-1 border border-brand-500">
           ${item.categoryLabel || getCategoryLabel(item.category)}
         </span>
         <h3 class="text-xl sm:text-2xl font-bold text-white leading-snug drop-shadow-md">
@@ -774,7 +777,7 @@ function showServiceDetails(id) {
     <!-- Provider Bio & Rating -->
     <div class="flex items-center justify-between pb-4 border-b border-slate-100 mb-4">
       <div class="flex items-center gap-3">
-        <div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-700 flex items-center justify-center text-xl font-bold">
+        <div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-800 flex items-center justify-center text-xl font-bold">
           <i class="fa-solid fa-user-tie"></i>
         </div>
         <div>
@@ -816,17 +819,17 @@ function showServiceDetails(id) {
     <div class="space-y-2.5">
       <div class="grid grid-cols-2 gap-3">
         <a 
-          href="tel:${item.phone}" 
-          class="bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm py-3 rounded-2xl transition flex items-center justify-center gap-2 shadow-md"
+          href="tel:${item.phone.replace(/[^0-9]/g, '')}" 
+          class="bg-brand-700 hover:bg-brand-800 text-white font-bold text-sm py-3 rounded-2xl transition flex items-center justify-center gap-2 shadow-md"
         >
           <i class="fa-solid fa-phone"></i>
-          <span>সরাসরি কল: ${item.phone}</span>
+          <span>কল: ${item.phone}</span>
         </a>
 
         <a 
           href="https://wa.me/${cleanWhatsapp}?text=${encodeURIComponent(`সালাম, Sadik.com.info তে আপনার "${item.title}" বিজ্ঞাপনটি দেখে যোগাযোগ করছি।`)}" 
           target="_blank" 
-          class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-sm py-3 rounded-2xl transition flex items-center justify-center gap-2 shadow-md"
+          class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm py-3 rounded-2xl transition flex items-center justify-center gap-2 shadow-md"
         >
           <i class="fa-brands fa-whatsapp text-lg"></i>
           <span>হোয়াটসঅ্যাপ চ্যাট</span>
@@ -836,9 +839,9 @@ function showServiceDetails(id) {
       <!-- Booking Request Form Opener -->
       <button 
         onclick="openBookingModal('${item.id}', '${item.title.replace(/'/g, "\\'")}')" 
-        class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm py-3 rounded-2xl transition flex items-center justify-center gap-2"
+        class="w-full bg-slate-900 hover:bg-brand-900 text-white font-bold text-sm py-3 rounded-2xl transition flex items-center justify-center gap-2"
       >
-        <i class="fa-solid fa-calendar-check text-brand-400"></i>
+        <i class="fa-solid fa-calendar-check text-blue-400"></i>
         <span>বুকিং / সার্ভিসের জন্য রিকোয়েস্ট পাঠান</span>
       </button>
     </div>
@@ -892,7 +895,7 @@ function handleBookingSubmit(e) {
   // Success toast
   showToast(
     "রিকোয়েস্ট সফলভাবে পাঠানো হয়েছে!", 
-    `${targetProvider} এর সাথে আপনার রিকোয়েস্ট নিশ্চিত করা হয়েছে। শীঘ্রই কল দেওয়া হবে।`
+    `${targetProvider} এর সাথে আপনার রিকোয়েস্ট নিশ্চিত করা হয়েছে। শীঘ্রই 01617-723455 থেকে বা প্রোভাইডার কল করবে।`
   );
 }
 
